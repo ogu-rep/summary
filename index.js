@@ -27,7 +27,9 @@ function showClock() {
   let hour = date_elem.getHours();
   let minutes  = date_elem.getMinutes();
   let second  = date_elem.getSeconds();
-  let now_time = year + "年" + (month + 1) + "月" + date + "日" + "(" + dayOfWeekStr + ")" + " " + hour + "時" + minutes + "分" + second + "秒";
+  let now_date = year + "年" + (month + 1) + "月" + date + "日" + "(" + dayOfWeekStr + ")";
+  let now_time = hour + "時" + minutes + "分" + second + "秒";
+  document.getElementById("real_date").innerHTML = now_date;
   document.getElementById("real_time").innerHTML = now_time;
 }
 setInterval('showClock()',1000);
