@@ -12,5 +12,5 @@
 - JR西日本 列車運行状況(近畿エリア)
 
 ## 参考
-- CSS
+- Layout
   - https://getbootstrap.jp/
