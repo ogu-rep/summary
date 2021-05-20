@@ -34,3 +34,7 @@ function showClock() {
 }
 setInterval('showClock()',1000);
 request.send();
+
+function reloadPage(){
+  location.reload();
+}
