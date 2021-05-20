@@ -1,5 +1,4 @@
-# summary
-[sammury](https://ogu-rep.github.io/summary/)
+## [sammury](https://ogu-rep.github.io/summary/)
 
 - イーサリアム
 - イーサリアムクラシック
