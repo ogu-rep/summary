@@ -1,17 +1,29 @@
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a {
+  color: black;
+  font-size: 20px;
+}
+
 #real_time, #real_date {
   font-family: monospace, sans-serif, serif, fantasy;
 }
 
 #top-btn {
-  position:fixed;
-  z-index:1;
+  border: solid 1px black;
+  position: fixed;
+  z-index: 1;
   top: 90%;
   right: 12%;
 }
 
 #reload-btn {
-  position:fixed;
-  z-index:1;
+  border: solid 1px black;
+  position: fixed;
+  z-index: 1;
   top: 90%;
   right: 2%;
 }
